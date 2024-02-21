@@ -13,6 +13,8 @@ import {
 } from '@raydium-io/raydium-sdk'
 import { Wallet } from '@project-serum/anchor'
 import base58 from 'bs58'
+import fetch from 'node-fetch'; // Add this line
+
 
 class RaydiumSwap {
   allPoolKeysJson: LiquidityPoolJsonInfo[]
